@@ -50,6 +50,8 @@ POSTGRES_PORT=5432
 ```
 Postgresql doesn't have a default password. You can setup your database based on your own needs.
 
+<b>Once Deno is installed in your machine</b>
+
 1. Go into the server directory `$ cd server`
 2. Run the server `$ deno run --allow-net --allow-read --allow-env --unsafely-ignore-certificate-errors --watch index.ts`
 
