@@ -29,11 +29,37 @@ The script to create table is in this path of the project directory `server/db/c
 
 Following the official Deno website: https://deno.land/manual@v1.31.1/getting_started/installation
 
+<b>Environment Variables</b>
+
+Create a `.env` file in the server directory and insert
+your key/value pairs in the following format of `KEY=VALUE`:
+
+```sh
+APP_HOST=127.0.0.1
+APP_PORT=8000
+
+POSTGRES_USER=postgres
+POSTGRES_DATABASE=note
+POSTGRES_HOSTNAME=localhost
+POSTGRES_PASSWORD=postgres
+POSTGRES_PORT=5432
+```
+Postgresql doesn't have a default password. You can setup your database based on your own needs.
+
 ### React + Typescript
 
 1. Go into client directory `$ cd client`
 2. Install node modules `$ npm i`
 3. Run the project `$ npm start`
+
+<b>Environment Variables</b>
+
+Create a `.env` file in the client directory and insert
+your key/value pairs in the following format of `KEY=VALUE`:
+
+```sh
+SERVER_URL=http://127.0.0.1:8000/api
+```
 
 ## 📝 License
 
