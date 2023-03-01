@@ -50,9 +50,12 @@ POSTGRES_PORT=5432
 ```
 Postgresql doesn't have a default password. You can setup your database based on your own needs.
 
+1. Go into the server directory `$ cd server`
+2. Run the server `$ deno run --allow-net --allow-read --allow-env --unsafely-ignore-certificate-errors --watch index.ts`
+
 ### React + Typescript
 
-1. Go into client directory `$ cd client`
+1. Go into the client directory `$ cd client`
 2. Install node modules `$ npm i`
 3. Run the project `$ npm start`
 
