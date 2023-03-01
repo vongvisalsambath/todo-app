@@ -1,0 +1,1 @@
+export const CREATED_AT_FORMAT = "DD/MM/yyyy HH:mm:ss A";

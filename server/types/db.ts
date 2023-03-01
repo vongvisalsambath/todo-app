@@ -1,0 +1,1 @@
+export type NoteRecord = [number, string, boolean, string];
