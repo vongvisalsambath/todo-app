@@ -18,6 +18,10 @@ https://snapcraft.io/install/postgresql/kde-neon
 
 brew install postgresql
 
+<b>Windows</b>
+
+Following this website: https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
+
 <b>Once Postgresql is installed in your machine</b>
 
 1. Create a database called `note`.
