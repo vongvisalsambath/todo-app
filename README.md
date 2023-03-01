@@ -4,7 +4,7 @@ This is made for study purpose only.
 
 ## 🏗 Getting Started
 
-We use Deno + Typescript as a backend with Postgresql for database. For frontend, we use React + Typescript.
+We use Deno + Typescript as a backend with Postgresql for database. For frontend, we use React + Typescript + Tailwind CSS
 
 ## Setup Requirements
 
